@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 
-NetworkServiceOptions networkOptions = builder.Configuration.GetOptions<NetworkServiceOptions>(services, "NetworkServices");
-builder.Services.AddApis<BaseAddressAuthorizationMessageHandler>(typeof(IGridDataApi).Assembly, apiUrl);
+//NetworkServiceOptions networkOptions = builder.Configuration.GetOptions<NetworkServiceOptions>(services, "NetworkServices");
+//builder.Services.AddApis<BaseAddressAuthorizationMessageHandler>(typeof(IGridDataApi).Assembly, apiUrl);
 
 await builder.Build().RunAsync();

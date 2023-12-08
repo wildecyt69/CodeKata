@@ -1,0 +1,7 @@
+﻿@typeparam TItem
+@inherits Components.ComponentBase
+<RadzenDataGrid Data="@Items" TItem="@TItem" AllowSorting="true" AllowPaging="true" AllowFiltering="true">
+    <Columns>
+        @ColumnDefinitions
+    </Columns>
+</RadzenDataGrid>

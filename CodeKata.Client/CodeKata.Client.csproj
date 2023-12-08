@@ -13,11 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\Core.Api\Core.Api.csproj" />
-    <ProjectReference Include="..\..\Core\Core.Components\Core.Components.csproj" />
-    <ProjectReference Include="..\..\Core\Core.Handlers\Core.Handlers.csproj" />
-    <ProjectReference Include="..\..\Core\Core.Network.Client\Core.Network.Client.csproj" />
-    <ProjectReference Include="..\..\Core\Core\Core.csproj" />
+    <ProjectReference Include="..\Core\Core.Api\Core.Api.csproj" />
+    <ProjectReference Include="..\Core\Core.Components\Core.Components.csproj" />
+    <ProjectReference Include="..\Core\Core.Handlers\Core.Handlers.csproj" />
+    <ProjectReference Include="..\Core\Core.Network.Client\Core.Network.Client.csproj" />
+    <ProjectReference Include="..\Core\Core\Core.csproj" />
   </ItemGroup>
 
 </Project>

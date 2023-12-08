@@ -5,19 +5,19 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DBD30335-1011-41FD-847C-01E48BB4FFE5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "..\Core\Core\Core.csproj", "{5260A6E3-2C0D-4669-A87D-97470A38CFB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core\Core.csproj", "{5260A6E3-2C0D-4669-A87D-97470A38CFB0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Handlers", "..\Core\Core.Handlers\Core.Handlers.csproj", "{3FC5C559-880E-4D75-A8CB-CC071ED2F58A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Handlers", "Core\Core.Handlers\Core.Handlers.csproj", "{3FC5C559-880E-4D75-A8CB-CC071ED2F58A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Components", "..\Core\Core.Components\Core.Components.csproj", "{C948577B-66F3-4D76-9F5B-E69275862610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Components", "Core\Core.Components\Core.Components.csproj", "{C948577B-66F3-4D76-9F5B-E69275862610}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeKata", "CodeKata\CodeKata.csproj", "{8BE7DE68-2119-45F1-BFCA-42D93B3517B3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeKata.Client", "CodeKata.Client\CodeKata.Client.csproj", "{E8622B0F-EFCA-4256-A326-4D16C5DB8CC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Api", "..\Core\Core.Api\Core.Api.csproj", "{51D85D10-5595-4361-893A-65E43A3BE8A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Api", "Core\Core.Api\Core.Api.csproj", "{51D85D10-5595-4361-893A-65E43A3BE8A8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Network.Client", "..\Core\Core.Network.Client\Core.Network.Client.csproj", "{F474D25B-901A-4EB5-82F5-E2A216335B7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Network.Client", "Core\Core.Network.Client\Core.Network.Client.csproj", "{F474D25B-901A-4EB5-82F5-E2A216335B7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
